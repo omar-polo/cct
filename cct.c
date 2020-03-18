@@ -70,9 +70,9 @@ draw()
 	}
 }
 
-/* search_tile implement the search functionality on the given cell.  There is
- * a 33% percent of probability that if a cell is HIDDEN_TREASURE it will be
- * revealed. */
+/* search_tile implements the search functionality on the given cell.  There
+ * is a 33% percent of probability that if a cell is HIDDEN_TREASURE it will
+ * be revealed. */
 void
 search_tile(int y, int x)
 {
@@ -91,7 +91,7 @@ search_tile(int y, int x)
 		board[y][x] = VISIBLE_TREASURE;
 }
 
-/* search tries to find treasures in all the cells that surround the player,
+/* search tries to find treasures in all the cells that surrounds the player,
  * plus the ones he/she is on.  It's probabilistic: that means that it can
  * fail to find a treasure */
 void
